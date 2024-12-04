@@ -1,6 +1,6 @@
 import streamlit as sl
 import requests
-import simplejson as json
+import json
 
 sl.header("Payment Fraud Detection App")
 
