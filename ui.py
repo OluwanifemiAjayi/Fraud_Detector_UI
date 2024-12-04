@@ -62,7 +62,7 @@ if detector:
     response = requests.post(url, json = input_df)
     isFraud = response.json()["isFraud"]
     
-response_value = 1 
+response_value = isFraud
 
 if response_value == 1:
     isFraud = "Fraud"
